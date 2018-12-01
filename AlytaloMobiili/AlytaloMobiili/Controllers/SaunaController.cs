@@ -17,6 +17,8 @@ namespace AlytaloMobiili.Controllers
         // GET: Sauna
         public ActionResult Index()
         {
+            
+
             return View(db.Saunat.ToList());
         }
 
