@@ -1,0 +1,58 @@
+﻿@model AlytaloMobiili.Models.Talot
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Talot</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TaloNimi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TaloNimi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TaloTavoiteLampotila)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TaloTavoiteLampotila)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TaloNykyLampotila)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TaloNykyLampotila)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LampoOff)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LampoOff)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LampoOn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LampoOn)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TaloId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

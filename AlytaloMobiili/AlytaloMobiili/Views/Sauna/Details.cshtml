@@ -1,0 +1,58 @@
+﻿@model AlytaloMobiili.Models.Saunat
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Saunat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SaunaNimi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SaunaNimi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SaunaOff)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SaunaOff)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SaunaOn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SaunaOn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SaunaTavoiteLampotila)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SaunaTavoiteLampotila)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SaunaNykyLampotila)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SaunaNykyLampotila)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SaunaId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

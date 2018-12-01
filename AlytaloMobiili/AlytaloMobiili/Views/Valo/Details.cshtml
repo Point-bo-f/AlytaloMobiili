@@ -1,0 +1,58 @@
+﻿@model AlytaloMobiili.Models.Valot
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Valot</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Huone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Huone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValoOff)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValoOff)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValoOn33)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValoOn33)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValoOn66)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValoOn66)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValoOn100)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValoOn100)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ValoId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
