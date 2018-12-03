@@ -182,6 +182,10 @@
       <DependentUpon>AlytaloMobiili.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="talovalo\Huone.cs" />
+    <Compile Include="talovalo\Valo33.cs" />
+    <Compile Include="talovalo\ValoId.cs" />
+    <Compile Include="valo\ValoId.cs" />
     <Compile Include="ViewModels\SaunaViewModel.cs" />
     <Compile Include="ViewModels\TaloViewModel.cs" />
     <Compile Include="ViewModels\ValoViewModel.cs" />

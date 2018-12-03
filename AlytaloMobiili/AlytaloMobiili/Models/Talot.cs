@@ -20,5 +20,8 @@ namespace AlytaloMobiili.Models
         public Nullable<int> TaloNykyLampotila { get; set; }
         public Nullable<bool> LampoOff { get; set; }
         public Nullable<bool> LampoOn { get; set; }
+        public string NykyLampotila { get; internal set; }
+        public string TavoiteLampotila { get; internal set; }
+        public object HuoneId { get; internal set; }
     }
 }

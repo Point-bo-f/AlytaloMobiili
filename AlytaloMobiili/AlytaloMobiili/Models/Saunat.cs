@@ -18,7 +18,8 @@ namespace AlytaloMobiili.Models
         public string SaunaNimi { get; set; }
         public Nullable<bool> SaunaOff { get; set; }
         public Nullable<bool> SaunaOn { get; set; }
-        public Nullable<int> SaunaTavoiteLampotila { get; set; }
-        public Nullable<int> SaunaNykyLampotila { get; set; }
+        public Nullable<int> TavoiteLampotila { get; set; }
+        public Nullable<int> NykyLampotila { get; set; }
+        public string NykyLampotila { get; internal set; }
     }
 }

@@ -8,15 +8,17 @@ namespace AlytaloMobiili.ViewModels
 {
     public class SaunaViewModel
     {
-        public int SaunaID { get; set; }
+        public int SaunaId { get; set; }
 
         public string SaunaNimi { get; set; }
 
         [Display(Name = "Tavoitelämpö")]
         public string TavoiteLampotila { get; set; }
 
-        [Display(Name = "Nykylämpö")]
-        public string NykyLampotila { get; set; }
+        private string NykyLampotila { get; set; }
+
+        [Display(Name = "ON / OFF")]
+        public bool SaunanTila { get; set; }
 
         [Display(Name = "Sauna On")]
         public DateTime? SaunaStart { get; set; }

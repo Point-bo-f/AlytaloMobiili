@@ -8,7 +8,7 @@ namespace AlytaloMobiili.ViewModels
 {
     public class ValoViewModel
     {
-        public int ValoID { get; set; }
+        public int ValoId { get; set; }
         public string Huone { get; set; }
 
         [Display(Name = "Valot pois")]
@@ -16,7 +16,7 @@ namespace AlytaloMobiili.ViewModels
         public bool Valo33 { get; set; }
         public bool Valo66 { get; set; }
         public bool Valo100 { get; set; }
-        
+     
     }
 
  }
